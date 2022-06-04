@@ -1,0 +1,15 @@
+[submodule "act"]
+	path = act
+	url = https://github.com/asyncvlsi/act
+[submodule "stdlib"]
+	path = stdlib
+	url = https://github.com/asyncvlsi/stdlib
+[submodule "actsim"]
+	path = actsim
+	url = https://github.com/asyncvlsi/actsim
+[submodule "dflowmap"]
+	path = dflowmap
+	url = https://github.com/asyncvlsi/dflowmap
+[submodule "chp2prs"]
+	path = chp2prs
+	url = https://github.com/asyncvlsi/chp2prs
