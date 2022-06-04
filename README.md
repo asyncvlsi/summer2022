@@ -19,3 +19,14 @@
 
 The tools will be installed in $ACT_HOME/bin. 
 Make sure that the ACT_HOME environment variable is set before using any of the ACT tools, and that $ACT_HOME/bin is in your path.
+
+## Example
+
+To install the tools in /opt/async (and in the bash shell), use:
+```
+$ export ACT_HOME=/opt/async
+$ git clone https://github.com/asyncvlsi/summer2022
+$ cd summer2022
+$ git submodule update --init --recursive
+$ ./build
+```
