@@ -1,0 +1,28 @@
+#!/bin/sh
+
+if [ "x$ACT_HOME" = "x" ]
+then
+	echo "Please define ACT_HOME!"
+	exit 1
+fi
+
+if [ ! -d $ACT_HOME ]
+then
+	echo "ACT_HOME: directory does not exist"
+	exit 1
+fi
+
+(cd act; 
+ export VLSI_TOOLS_SRC=`pwd`;
+ ./configure $ACT_HOME;
+ ./build;
+ make install
+)
+
+(cd stdlib; make install)
+
+(cd actsim; ./configure; make && make install)
+
+(cd dflowmap; ./configure; ./build.sh; cd build; make install)
+
+(cd chp2prs; ./configure; make && make install)
