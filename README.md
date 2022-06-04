@@ -16,3 +16,6 @@
      common locations on Unix-like machines include /usr/local/cad, /opt/cad, /opt/async. You can also install them in any other directory (e.g. $HOME/async)
    * Set the environment variable ACT_HOME to point to the install directory.
    * Run ./build
+
+The tools will be installed in $ACT_HOME/bin. 
+Make sure that the ACT_HOME environment variable is set before using any of the ACT tools, and that $ACT_HOME/bin is in your path.
