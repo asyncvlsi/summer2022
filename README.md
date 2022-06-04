@@ -2,7 +2,7 @@
 
 ## System requirements:
 
-   * The system needs a relatively modern version of a C++ compiler (supporting c++17)
+   * The system needs a relatively modern version of a C and C++ compiler (supporting c++17)
    * The system needs cmake install (version >= 3.15)
    * The system must have libedit installed. For the yum package manager, the
      package is called libedit-devel; for apt-get, it is libeditline-dev. Some
