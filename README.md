@@ -10,7 +10,8 @@
 
 ## To install tools:
  
-  * Clone this repository with `git clone https://github.com/asyncvlsi/summer2022`. This repository contains submodules, so make sure you initialize those as well.
+  * Clone this repository with `git clone https://github.com/asyncvlsi/summer2022`. 
+  * Note that this repository contains submodules, so make sure you initialize those as well (`git submodule update --init --recursive`)
    * Create a directory where you'd like the tools to be installed. Example
      common locations on Unix-like machines include /usr/local/cad, /opt/cad, /opt/async. You can also install them in any other directory (e.g. $HOME/async)
    * Set the environment variable ACT_HOME to point to the install directory.
