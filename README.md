@@ -10,6 +10,12 @@
    * The system should have zlib installed
    * The system should have the macro pre-processing package m4 installed
 
+On Ubuntu, you can install these using:
+```
+apt-get -q update -y
+apt-get -q install -y libedit-dev zlib1g-dev m4 build-essential cmake
+```
+
 ## To install tools:
  
   * Clone this repository with `git clone https://github.com/asyncvlsi/summer2022`. 
