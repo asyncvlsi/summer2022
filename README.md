@@ -2,11 +2,19 @@
 
 ## System requirements:
 
+   * The system needs a relatively modern version of a C and C++ compiler (supporting c++17)
+   * The system needs cmake install (version >= 3.15)
    * The system must have libedit installed. For the yum package manager, the
      package is called libedit-devel; for apt-get, it is libeditline-dev. Some
      systems have *both* packages. In that case please use libedit, not libeditline.
    * The system should have zlib installed
    * The system should have the macro pre-processing package m4 installed
+
+On Ubuntu, you can install these using:
+```
+apt-get -q update -y
+apt-get -q install -y libedit-dev zlib1g-dev m4 build-essential cmake
+```
 
 ## To install tools:
  
