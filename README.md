@@ -17,6 +17,10 @@ apt-get -q install -y libedit-dev zlib1g-dev m4 build-essential cmake
 ```
 
 You should also install [yosys](https://github.com/YosysHQ/yosys) if you want to use the expression optimization package.
+On Ubuntu, you can install it directly using:
+```
+apt-get -q install -y yosys
+```
 
 ## To install tools:
  
