@@ -25,4 +25,5 @@ fi
 
 (cd dflowmap; ./configure; ./build.sh; cd build; make install)
 
+(cd expropt; ./configure; make && make install)
 (cd chp2prs; ./configure; make && make install)

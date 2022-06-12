@@ -13,3 +13,6 @@
 [submodule "chp2prs"]
 	path = chp2prs
 	url = https://github.com/asyncvlsi/chp2prs
+[submodule "expropt"]
+	path = expropt
+	url = https://github.com/asyncvlsi/expropt
