@@ -16,6 +16,8 @@ apt-get -q update -y
 apt-get -q install -y libedit-dev zlib1g-dev m4 build-essential cmake
 ```
 
+You should also install [yosys](https://github.com/YosysHQ/yosys) if you want to use the expression optimization package.
+
 ## To install tools:
  
   * Clone this repository with `git clone https://github.com/asyncvlsi/summer2022`. 
