@@ -1,18 +1,24 @@
 [submodule "act"]
 	path = act
 	url = https://github.com/asyncvlsi/act
+	branch = master
 [submodule "stdlib"]
 	path = stdlib
 	url = https://github.com/asyncvlsi/stdlib
+	branch = main
 [submodule "actsim"]
 	path = actsim
 	url = https://github.com/asyncvlsi/actsim
+	branch = master
 [submodule "dflowmap"]
 	path = dflowmap
 	url = https://github.com/asyncvlsi/dflowmap
+	branch = main
 [submodule "chp2prs"]
 	path = chp2prs
 	url = https://github.com/asyncvlsi/chp2prs
+	branch = master
 [submodule "expropt"]
 	path = expropt
 	url = https://github.com/asyncvlsi/expropt
+	branch = main
